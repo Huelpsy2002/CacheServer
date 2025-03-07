@@ -11,10 +11,18 @@ A simple cache server that intercepts client requests and caches responses from 
 
 
 ## Installation
-git clone https://github.com/Huelpsy2002/CacheServer.git.
-cd CasheServer.
-dotnet build.
-dotnet run --port 8080 --url https://jsonplaceholder.typicode.com.
+
+1 - Clone this repository
+git clone https://github.com/Huelpsy2002/CacheServer.git
+
+
+2- Navigate to the project folder
+cd CasheServer
+
+
+3- Build the project
+dotnet build
+dotnet run --port 8080 --url https://jsonplaceholder.typicode.com
 
 
 ## Usage
