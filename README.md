@@ -12,20 +12,20 @@ A simple cache server that intercepts client requests and caches responses from 
 
 ## Installation
 
-1 - git clone https://github.com/Huelpsy2002/CacheServer.git
-2- cd CasheServer
-3- dotnet build 
+1 - git clone https://github.com/Huelpsy2002/CacheServer.git  
+2- cd CasheServer  
+3- dotnet build   
 4 - dotnet run --port 8080 --url https://jsonplaceholder.typicode.com
 
 
 ## Usage
-Run the cache server with the following command:
+Run the cache server with the following command:  
 CacheServer --port <port> --url <url>
 
 ## Options
---port, -p      : Port number to run the server
---url, -u       : URL of the actual server
---help, -h      : Display this help information
+--port, -p      : Port number to run the server  
+--url, -u       : URL of the actual server  
+--help, -h      : Display this help information  
 
 ## Example
 CacheServer --port 8080 --url https://jsonplaceholder.typicode.com
